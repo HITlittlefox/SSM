@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--    <bean id="student" class="com.kuang.com.kuang.pojo.Student">-->
+    <!--        <property name="name" value="小明"/>-->
+    <!--    </bean>-->
+
+    <!--    2、Bean注入-->
+
+    <!--    注意点：这里的值是一个引用，ref-->
+
+    <bean id="address" class="com.kuang.pojo.Address">
+        <property name="address" value="重庆"/>
+    </bean>
+
+    <bean id="student" class="com.kuang.pojo.Student">
+        <property name="name" value="小明"/>
+        <property name="address" ref="address"/>
+        <property name="books">
+            <array>
+                <value>西游记</value>
+                <value>红楼梦</value>
+                <value>水浒传</value>
+            </array>
+        </property>
+
+        <property name="hobbies">
+            <list>
+                <value>听歌</value>
+                <value>看电影</value>
+                <value>爬山</value>
+            </list>
+        </property>
+        <property name="card">
+            <map>
+                <entry key="中国邮政" value="456456456465456"/>
+                <entry key="建设" value="1456682255511"/>
+            </map>
+        </property>
+        <property name="games">
+            <set>
+                <value>LOL</value>
+                <value>BOB</value>
+                <value>COC</value>
+            </set>
+        </property>
+        <property name="wife">
+            <null/>
+        </property>
+        <property name="info">
+            <props>
+                <prop key="学号">20190604</prop>
+                <prop key="性别">男</prop>
+                <prop key="姓名">小明</prop>
+            </props>
+        </property>
+    </bean>
+    <!--    &lt;!&ndash;    3、数组注入&ndash;&gt;-->
+
+    <!--    <bean id="student" class="com.kuang.pojo.Student">-->
+    <!--        <property name="name" value="小明"/>-->
+    <!--        <property name="address" ref="address"/>-->
+
+    <!--    </bean>-->
+    <!--    &lt;!&ndash;    4、List注入&ndash;&gt;-->
+    <!--    <bean id="student" class="com.kuang.pojo.Student">-->
+    <!--        <property name="hobbies">-->
+    <!--            <list>-->
+    <!--                <value>听歌</value>-->
+    <!--                <value>看电影</value>-->
+    <!--                <value>爬山</value>-->
+    <!--            </list>-->
+    <!--        </property>-->
+    <!--    </bean>-->
+
+    <!--    &lt;!&ndash;    5、Map注入&ndash;&gt;-->
+    <!--    <bean id="student" class="com.kuang.pojo.Student">-->
+
+    <!--        <property name="card">-->
+    <!--            <map>-->
+    <!--                <entry key="中国邮政" value="456456456465456"/>-->
+    <!--                <entry key="建设" value="1456682255511"/>-->
+    <!--            </map>-->
+    <!--        </property>-->
+    <!--    </bean>-->
+
+    <!--    &lt;!&ndash;    6、Set注入&ndash;&gt;-->
+    <!--    <bean id="student" class="com.kuang.pojo.Student">-->
+
+    <!--        <property name="games">-->
+    <!--            <set>-->
+    <!--                <value>LOL</value>-->
+    <!--                <value>BOB</value>-->
+    <!--                <value>COC</value>-->
+    <!--            </set>-->
+    <!--        </property>-->
+    <!--    </bean>-->
+
+    <!--    &lt;!&ndash;    7、Null注入&ndash;&gt;-->
+    <!--    <bean id="student" class="com.kuang.pojo.Student">-->
+
+    <!--        <property name="wife">-->
+    <!--            <null/>-->
+    <!--        </property>-->
+    <!--    </bean>-->
+
+    <!--    &lt;!&ndash;    8、Properties注入&ndash;&gt;-->
+    <!--    <bean id="student" class="com.kuang.pojo.Student">-->
+
+    <!--        <property name="info">-->
+    <!--            <props>-->
+    <!--                <prop key="学号">20190604</prop>-->
+    <!--                <prop key="性别">男</prop>-->
+    <!--                <prop key="姓名">小明</prop>-->
+    <!--            </props>-->
+    <!--        </property>-->
+
+    <!--    </bean>-->
+
+</beans>
