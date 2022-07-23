@@ -23,7 +23,9 @@
     <!--    第二种根据参数名字设置-->
     <bean id="userT" class="com.kuang.pojo.UserT">
         <!-- name指参数名 -->
-        <!--        <constructor-arg name="name" value="kuangshen2"/>-->
+        <!--        <constructor-arg name="name" value="kuang
+
+        shen2"/>-->
     </bean>
 
 
