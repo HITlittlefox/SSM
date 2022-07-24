@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<!--没有使用！-->
+<mapper namespace="com.lxl.dao.UserMapper05">
+
+    <!--    <select id="getUserById" resultType="User05">-->
+    <!--        select *-->
+    <!--        from mybatis.users-->
+    <!--        where id = #{id}-->
+    <!--    </select>-->
+
+</mapper>

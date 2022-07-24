@@ -10,6 +10,11 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>mybatis-01</module>
+        <module>mybatis-02</module>
+        <module>mybatis-03</module>
+        <module>mybatis-04</module>
+        <module>mybatis-05</module>
+        <module>mybatis-Lombok</module>
     </modules>
 
     <properties>

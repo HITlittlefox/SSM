@@ -4,9 +4,10 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 
-<!--namespace 命名空间 ： 这里等价于之前缩写的 UserDaoImp  指向一个Mapper接口-->
-<mapper namespace="com.lxl.dao.UserMapper">
-    <!--    id 表示的是实现 namespace 中所对应接口的方法   resultType 表示的是返回值类型  -->
+<!--namespace 命名空间:这里等价于之前缩写的 UserDaoImp  指向一个Mapper接口-->
+<mapper namespace="com.lxl.dao.UserMapper02">
+    <!--id 表示的是实现 namespace 中所对应接口的方法
+    resultType 表示的是返回值类型  -->
     <select id="getUserList" resultType="com.lxl.pojo.User">
         select *
         from mybatis.users
@@ -16,6 +17,21 @@
         select *
         from mybatis.users
         where id = #{id}
+    </select>
+
+    <!--根据 密码 和 名字 查询用户-->
+    <select id="getUserByNameandPwd" resultType="com.lxl.pojo.User">
+        select *
+        from mybatis.users
+        where name = #{username}
+          and pwd = #{pwd}
+    </select>
+
+    <!--防止注入-->
+    <select id="getUserLike" resultType="com.lxl.pojo.User">
+        select *
+        from mybatis.users
+        where name like "%"#{value}"%";
     </select>
 
     <select id="getUserById2" parameterType="map" resultType="com.lxl.pojo.User">
@@ -30,7 +46,7 @@
         values (#{id}, #{name}, #{pwd});
     </insert>
 
-    <insert id="addUser2" parameterType="map">
+    <insert id="addUserByMap" parameterType="map">
         insert into mybatis.users (id, name, pwd)
         values (#{userid}, #{username}, #{userpwd});
     </insert>

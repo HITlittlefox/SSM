@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<!--namespace 命名空间:这里等价于之前缩写的 UserDaoImp  指向一个Mapper接口-->
+<mapper namespace="com.lxl.dao.UserMapper04">
+
+    <resultMap id="UserMap" type="User04">
+        <!--可省略-->
+        <result column="id" property="id"></result>
+        <!--可省略-->
+        <result column="name" property="name"></result>
+        <!--不可省略-->
+        <result column="pwd" property="password"></result>
+    </resultMap>
+
+    <select id="getUserById" resultType="User04" resultMap="UserMap">
+        select *
+        from mybatis.users
+        where id = #{id}
+    </select>
+
+    <!--实现分页-->
+    <select id="getUserListByLimit" parameterType="map" resultMap="UserMap">
+        select *
+        from mybatis.users
+        limit #{startIndex},#{pageSize}
+    </select>
+</mapper>
