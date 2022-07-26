@@ -13,7 +13,14 @@
         <module name="mybatis-05" />
         <module name="mybatis-Lombok" />
         <module name="mybatis-01" />
+        <module name="mybatis-Cache" />
+        <module name="mybatis-06" />
+        <module name="mybatis-07" />
+        <module name="mybatis-08" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mybatis-动态SQL" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

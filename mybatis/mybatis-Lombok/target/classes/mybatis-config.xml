@@ -50,7 +50,7 @@
 
     <mappers>
         <!--<mapper resource="com/lxl/dao/UserMapper05.xml"/>-->
-        <mapper class="com.com.lxl.dao.UserMapperLombok"></mapper>
+        <mapper class="com.lxl.dao.UserMapperLombok"></mapper>
     </mappers>
 
 

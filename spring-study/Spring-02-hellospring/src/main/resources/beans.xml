@@ -7,7 +7,6 @@
     id = 变量名
     class = new 的对象
     property 相当于对象中的属性，value就是给对象中的属性设置一个值
-
     -->
     <bean id="hello" class="com.kuang.pojo.Hello">
         <property name="str" value="Spring"></property>

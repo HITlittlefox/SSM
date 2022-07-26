@@ -3,6 +3,7 @@ import kuang.dao.UserDaoMysqlImpl;
 import kuang.dao.UserDaoOracleImpl;
 import kuang.service.UserService;
 import kuang.service.UserServiceImpl;
+import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -21,13 +22,24 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 //    }
 //}
 public class MyTest {
+
+
     //获取applicationcontext：拿到Spring的容器
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
         //需要什么，get什么
         UserServiceImpl serviceImpl = (UserServiceImpl) context.getBean("ServiceImpl");
         serviceImpl.getUser();
-
-
     }
+
+    @Test
+    public void test() {
+        UserServiceImpl service = new UserServiceImpl();
+        service.setUserDao(new UserDaoMysqlImpl());
+        service.getUser();
+        //那我们现在又想用Oracle去实现呢
+        service.setUserDao(new UserDaoOracleImpl());
+        service.getUser();
+    }
+
 }
