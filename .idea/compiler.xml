@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mybatis-02" />
+        <module name="mybatis-03" />
+        <module name="mybatis-04" />
+        <module name="mybatis-05" />
+        <module name="pagination" />
+        <module name="Spring-02-hellospring" />
+        <module name="mybatis-01" />
+        <module name="springmvc-04-controller" />
+        <module name="spring-08-proxy" />
+        <module name="ssmbuild (1)" />
+        <module name="springmvc-03-annotation" />
+        <module name="spring-06-anno" />
+        <module name="spring-09-aop" />
+        <module name="spring-01-ioc1" />
+        <module name="springmvc-01-servlet" />
+        <module name="CRUD" />
+        <module name="springmvc-07-Interceptor" />
+        <module name="spring-04-di" />
+        <module name="springmvc-02-hellomvc" />
+        <module name="ActiveRecord" />
+        <module name="services" />
+        <module name="ssmbuild" />
+        <module name="springmvc-05-json" />
+        <module name="mybatis-Lombok" />
+        <module name="springmvc-06-ajax" />
+        <module name="spring-10-mybatis" />
+        <module name="spring-03-ioc2" />
+        <module name="mybatis-Cache" />
+        <module name="mybatis-06" />
+        <module name="mybatis-07" />
+        <module name="mybatis-08" />
+        <module name="first" />
+        <module name="spring-05-Autowired" />
+        <module name="spring-11-transation" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ActiveRecord" target="1.8" />
+      <module name="CRUD" target="1.8" />
+      <module name="first" target="1.8" />
+      <module name="mybatis" target="1.8" />
+      <module name="mybatis-01" target="1.8" />
+      <module name="mybatis-02" target="1.8" />
+      <module name="mybatis-03" target="1.8" />
+      <module name="mybatis-04" target="1.8" />
+      <module name="mybatis-05" target="1.8" />
+      <module name="mybatis-06" target="1.8" />
+      <module name="mybatis-07" target="1.8" />
+      <module name="mybatis-08" target="1.8" />
+      <module name="mybatis-Cache" target="1.8" />
+      <module name="mybatis-Lombok" target="1.8" />
+      <module name="mybatis-plus" target="1.8" />
+      <module name="pagination" target="1.8" />
+      <module name="services" target="1.8" />
+      <module name="spring-01-ioc1" target="1.8" />
+      <module name="Spring-02-hellospring" target="1.8" />
+      <module name="spring-03-ioc2" target="1.8" />
+      <module name="spring-04-di" target="1.8" />
+      <module name="spring-05-Autowired" target="1.8" />
+      <module name="spring-06-anno" target="1.8" />
+      <module name="spring-08-proxy" target="1.8" />
+      <module name="spring-09-aop" target="1.8" />
+      <module name="spring-10-mybatis" target="1.8" />
+      <module name="spring-11-transation" target="1.8" />
+      <module name="spring-study" target="1.8" />
+      <module name="springMVC" target="1.8" />
+      <module name="springmvc-01-servlet" target="1.8" />
+      <module name="springmvc-02-hellomvc" target="1.8" />
+      <module name="springmvc-03-annotation" target="1.8" />
+      <module name="springmvc-04-controller" target="1.8" />
+      <module name="springmvc-05-json" target="1.8" />
+      <module name="springmvc-06-ajax" target="1.8" />
+      <module name="springmvc-07-Interceptor" target="1.8" />
+      <module name="ssmbuild" target="1.8" />
+      <module name="ssmbuild (1)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

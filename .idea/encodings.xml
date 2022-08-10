@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/mybatis-plus/ActiveRecord/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-plus/CRUD/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-plus/first/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-plus/pagination/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-plus/services/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-plus/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC/springmvc-01-servlet/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC/springmvc-01-servlet/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC/springmvc-02-hellomvc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC/springmvc-02-hellomvc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC/springmvc-03-annotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC/springmvc-03-annotation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC/springmvc-04-controller/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC/springmvc-04-controller/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC/springmvc-05-json/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC/springmvc-05-json/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC/springmvc-06-ajax/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC/springmvc-06-ajax/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC/springmvc-07-Interceptor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC/springmvc-07-Interceptor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../../../../apache-maven-3.8.6/repository/org/springframework/boot/spring-boot-starter-parent/2.7.2/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

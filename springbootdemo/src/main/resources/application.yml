@@ -1,0 +1,49 @@
+#person:
+#  name: qinjiang
+#  age: 3
+#  happy: false
+#  birth: 2000/01/01
+#  maps: { k1: v1,k2: v2 }
+#  lists:
+#    - code
+#    - girl
+#    - music
+#  dog:
+#    name: 旺财
+#    age: 1
+
+person:
+  name: qinjiang${random.uuid} # 随机uuid
+  age: ${random.int}  # 随机int
+  happy: false
+  birth: 2000/01/01
+  maps: { k1: v1,k2: v2 }
+  lists:
+    - code
+    - girl
+    - music
+  dog:
+    name: ${person.hello:other}_旺财
+    age: 1
+
+
+server:
+  port: 8081
+#选择要激活那个环境块
+spring:
+  profiles:
+    active: prod
+
+---
+server:
+  port: 8083
+spring:
+  profiles: dev #配置环境的名称
+
+
+---
+
+server:
+  port: 8084
+spring:
+  profiles: prod  #配置环境的名称
